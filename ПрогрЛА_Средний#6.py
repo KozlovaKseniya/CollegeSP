@@ -1,0 +1,11 @@
+import math
+print("x=1.1")
+x=float(1.1)
+m=float(input("введите m="))
+a=float((math.sqrt(math.fabs(x))))
+print("a=|x|^(1/2)=",a)
+b=float(math.pow(x,4)+math.pow(m,2))
+print("b=x^4+m^2=",b)
+y=math.pow(math.sin(a+math.pow(math.tan(b),3)),2)
+print("y=sin^2(a+tg^3(b))=",y)
+input()
