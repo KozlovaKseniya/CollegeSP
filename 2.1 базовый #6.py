@@ -1,0 +1,8 @@
+x=int(0)
+y=int(0)
+z=int(1)
+print("X=0; Y=0; Z=1")
+print("a)", x or y and not(z))
+print("b)", not x and not y)
+print("c)", not(x and z)or y)
+input()
